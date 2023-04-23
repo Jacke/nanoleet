@@ -1,4 +1,6 @@
 python-leetcode==1.2.1
-setuptools==57.5.0
+setuptools==67.4.0
 genanki
 tqdm
+python-pdf==0.39
+airium==0.2.5

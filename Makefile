@@ -4,4 +4,4 @@ generate:
 	# the information about the problems
 	test ! "x${VIRTUAL_ENV}" = "x" || (echo "Need to run inside venv" && exit 1)
 	pip install -r requirements.txt
-	python3 generate.py
+	python3 cli.py -i csv -o pdf anki
